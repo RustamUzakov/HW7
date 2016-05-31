@@ -1,0 +1,25 @@
+.menu{
+	overflow-x:hidden;
+	position: relative;
+	left: 210; 
+}
+
+
+.menu-open{
+	left: 230px;
+}
+
+.menu-open .menu-slide{
+	left: 0;
+}
+.menu-slide{
+	background-color:#333;
+	border-right: 1px solid #000;
+	color: #fff;
+	position: fixed;
+	top: 0;
+	left: -230px;
+	width: 210px;
+	height: 100%;	
+	padding: 10px;
+}
